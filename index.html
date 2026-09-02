@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>شرکت پارس فن مغان | صفحه اصلی</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <div class="logo-icon"></div>
+        <span>شرکت پارس فن مغان</span>
+      </a>
+      <nav class="nav">
+        <a href="index.html" class="active">صفحه اصلی</a>
+        <a href="projects.html">پروژه ها</a>
+        <a href="training.html">آموزش</a>
+        <a href="about.html">درباره ما</a>
+        <a href="contact.html">تماس با ما</a>
+      </nav>
+      <button class="search-btn" aria-label="جستجو"><i class="fas fa-search"></i></button>
+      <button class="menu-toggle" onclick="document.querySelector('.nav').classList.toggle('show')"><i class="fas fa-bars"></i></button>
+    </div>
+  </header>
+
+  <!-- Hero با اسلایدر متحرک -->
+  <section class="hero">
+    <div class="hero-slider">
+      <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=1600&q=80');"></div>
+      <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=1600&q=80');"></div>
+      <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=1600&q=80');"></div>
+    </div>
+    <div class="hero-content">
+      <h1>شرکت پارس فن مغان</h1>
+      <p>ارائه خدمات تخصصی مهندسی، اجرایی و آموزشی در صنعت نفت، گاز و حفاری با بیش از سه دهه تجربه</p>
+    </div>
+  </section>
+
+  <!-- خدمات اصلی -->
+  <section class="section">
+    <h2 class="section-title">خدمات ما</h2>
+    <p class="section-subtitle">طیف متنوعی از خدمات مشاوره، اجرایی و آموزشی</p>
+    
+    <div class="cards-grid">
+      <div class="card">
+        <div class="card-icon"><i class="fas fa-graduation-cap"></i></div>
+        <h3>دپارتمان آموزش</h3>
+        <p>تاریخچه و شرح خدمات آموزشی تخصصی حفاری و زمین‌شناسی</p>
+        <a href="training.html" class="card-link">مشاهده آموزش‌ها ←</a>
+      </div>
+      
+      <div class="card">
+        <div class="card-icon"><i class="fas fa-tools"></i></div>
+        <h3>پروژه‌های اجرایی</h3>
+        <p>پروژه‌های مرتبط با خدمات اجرایی در صنعت نفت و گاز</p>
+        <a href="projects.html" class="card-link">مشاهده پروژه‌ها ←</a>
+      </div>
+      
+      <div class="card">
+        <div class="card-icon"><i class="fas fa-drafting-compass"></i></div>
+        <h3>خدمات مشاوره و مهندسی</h3>
+        <p>پروژه‌های مرتبط با خدمات مشاوره و مهندسی حفاری</p>
+        <a href="projects.html" class="card-link">مشاهده پروژه‌ها ←</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- درباره کوتاه با عکس‌های متحرک -->
+  <section class="section" style="padding-top: 0;">
+    <div class="about-preview">
+      <div class="about-images">
+        <img src="https://images.unsplash.com/photo-1581094271901-8022df4466f9?w=600&q=80" alt="پروژه صنعتی">
+        <img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=600&q=80" alt="حفاری">
+      </div>
+      <div class="about-text">
+        <h2>شرکت پارس فن مغان</h2>
+        <p>افتخار بیش از سه دهه ارائه خدمات به صنعت نفت و گاز کشورمان در طیف متنوعی از پروژه‌های مهندسی و اجرایی به صورت مدیریت غیرمتمرکز منجر به تشکیل سازمان مهندسی این مجموعه با هم‌افزایی دو پایه مهندسی مشاور و پیمانکار گردیده است.</p>
+        <p>تحصیل بهره‌وری بیشتر از طریق مدیریت یکپارچه، امکان بهره‌گیری از حداکثر توانمندی سازمان پرسنلی و توان سرمایه‌ای را ارتقاء بخشیده است.</p>
+        <a href="about.html" class="card-link" style="text-align: right; margin-top: 1rem;">مطالعه بیشتر درباره ما ←</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div>
+        <h4>شرکت پارس فن مغان</h4>
+        <p>با عنایت به دانش علمی و توان عملیاتی پرسنل خود که بر پایه پویایی علمی و تجارب عملی حاصل گردیده، آماده اجرای پروژه‌های کلان در صنایع بالادستی و پایین‌دستی نفت و گاز می‌باشد.</p>
+        <div class="social-links">
+          <a href="https://www.instagram.com/pfanmoghan/" target="_blank" title="اینستاگرام"><i class="fab fa-instagram"></i></a>
+          <a href="https://x.com/pfmoghan" target="_blank" title="ایکس"><i class="fab fa-x-twitter"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=61594151242096" target="_blank" title="فیسبوک"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://medium.com/@pfanmoghan" target="_blank" title="مدیوم"><i class="fab fa-medium-m"></i></a>
+        </div>
+      </div>
+      <div>
+        <h4>دسترسی سریع</h4>
+        <a href="index.html">صفحه اصلی</a>
+        <a href="projects.html">پروژه‌ها</a>
+        <a href="training.html">آموزش</a>
+        <a href="about.html">درباره ما</a>
+        <a href="contact.html">تماس با ما</a>
+      </div>
+      <div>
+        <h4>تماس با ما</h4>
+        <p><i class="fas fa-map-marker-alt" style="margin-left:8px;color:#fdba74"></i> تهران - سعادت آباد</p>
+        <p><i class="fas fa-envelope" style="margin-left:8px;color:#fdba74"></i> pfanmoghan@gmail.com</p>
+        <a href="contact.html">صفحه تماس ←</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      © تمامی حقوق برای شرکت پارس فن مغان محفوظ است.
+    </div>
+  </footer>
+
+  <script>
+    // منوی موبایل ساده
+    document.querySelector('.menu-toggle')?.addEventListener('click', function() {
+      const nav = document.querySelector('.nav');
+      nav.style.display = nav.style.display === 'flex' ? 'none' : 'flex';
+      nav.style.flexDirection = 'column';
+      nav.style.position = 'absolute';
+      nav.style.top = '70px';
+      nav.style.right = '0';
+      nav.style.left = '0';
+      nav.style.background = '#0b5ea8';
+      nav.style.padding = '1rem';
+      nav.style.gap = '1rem';
+    });
+  </script>
+</body>
+</html>
